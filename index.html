@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/demo.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<style type="text/css">
+	.footer ul li{float: left; list-style: none;text-align: left;width: 30%;}
+	</style>
+</head>
+<body>
+	<div data-role="page" data-theme="b">
+		<div data-role="header">
+			<h1>Demo jQuery Mobile</h1>
+		</div><!-- /header -->
+
+		<div role="main" class="ui-content">
+		<form class="ui-filterable">
+			<input id="autocomplete-input" data-type="search" placeholder="search name">
+		</form>
+			<ul data-role="listview" data-inset="true" data-filter-reveal="true" data-input="#autocomplete-input" >
+			<li><a href="page2.html" data-transition="slidedown"> <img src="images/1.jpg"/> <h3> Vu Huy Tuan</h3></a></li>
+			<li><a href="page2.html"  data-transition="slidedown"> <img src="images/2.jpg"/> <h3> Nguyen Van A</h3></a></li>
+			<li><a href="page2.html"  data-transition="slidedown"> <img src="images/3.jpg"/> <h3> Nguyen Van B<h3></a></li>
+			<li><a href="page2.html"  data-transition="slidedown"> <img src="images/4.jpg"/> <h3> Nguyen Van C</h3></a></li>
+<li data-filtertext="NASDAQ:AAPL Apple Inc."><a href="#">Apple</a></li>
+<li data-filtertext="USA U.S.A. United States of America"><a href="#">United States</a></li>
+			</ul>	
+			Nút (Buttons)
+			<input data-role="button" type="button"  value ="button">
+			<select name="select-options" id="select-options">
+				<option value="option1">Option 1</option>
+				<option value="option2">Option 2</option>
+				<option value="option2">Option 3</option>
+			</select>
+
+			            
+			        
+		</div><!-- /content -->
+
+		<div data-role="footer" class="footer">
+			<ul data-role="navbar">
+				<li><a  href="home" data-icon="home">Home</a></li>
+				<li><a href="Photos" data-icon="grid">Photos</a></li>
+				<li><a href="Info" data-icon="info">Info</a></li>
+			</ul>
+		</div><!-- /footer -->
+
+	</div>
+</body>
+</html>
